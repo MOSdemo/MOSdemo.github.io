@@ -1,0 +1,82 @@
+﻿/*Removes default carousel gradients.*/
+.carousel-control.left, .carousel-control.right {
+    background-image:none;
+}
+
+/*Moves the default carousel indicator position to the right.*/
+.carousel-indicators {
+    text-align: right;
+    float: right;
+    right: 2% !important;
+    left: inherit;
+}
+
+/*Makes the carousel indicators white and adds spacing.*/
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0px 3px !important;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(255, 255, 255, 100);
+    border: none;
+    border-radius: 10px;
+}
+
+/*Makes the active carousel indicator red.*/
+.carousel-indicators .active {
+    background-color: red;
+    border: none;
+}
+
+/*Widens the padding before/after the row.*/
+.row {
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+/*Widens the gutters between columns.*/
+.gutter-40.row {
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.gutter-50 > [class^="col-"], .gutter-30 > [class^="col-"] {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/*Removes the automatic thumbnail frames.*/
+.thumbnail {
+    border: none;
+    box-shadow: none;
+    float: left;
+    position: relative;
+    margin: 5px;
+    color: #333;
+}
+
+/*.thumbnail .image-caption {
+    border: none;
+    box-shadow: none;
+    display: none;
+    opacity: 0.8;
+    background: #D2D6E2;
+    width: 100%;
+    position: absolute;
+    bottom:4px;
+    padding: 5px;
+}*/
+
+/*.image-caption {
+    position: absolute;
+    padding-top: 0%;
+    /*padding-right: 30%;
+    padding-left: 30%;*/
+    text-align: center;
+    background: rgba(68,83,90,0.6);
+    bottom: 0;
+    max-width: 100%;
+    color: #FFFFFF;
+}*/
