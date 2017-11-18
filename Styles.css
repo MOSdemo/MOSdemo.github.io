@@ -1,4 +1,19 @@
-﻿/*Removes default carousel gradients.*/
+﻿/*Creates the shadow-box over the carousel slides.*/
+.overlay {
+    position: absolute;
+    background: rgba(0,0,0,0.6);
+    top: 15%;
+    width: 40%;
+    color: #FFFFFF;
+}
+
+/*Customizes the button colors.*/
+.custom-button {
+    border-radius: 0px;
+    background: #037CFA;
+}
+
+/*Removes default carousel gradients.*/
 .carousel-control.left, .carousel-control.right {
     background-image:none;
 }
@@ -72,12 +87,4 @@
 .slider {
     position: absolute;
     padding-top: 0%;
-}
-
-.overlay {
-    position: absolute;
-    background: rgba(68,83,90,0.6);
-    top: 15%;
-    width: 40%;
-    color: #FFFFFF;
 }
