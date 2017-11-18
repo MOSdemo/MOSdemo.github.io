@@ -2,11 +2,19 @@
 .overlay {
     position: absolute;
     background: rgba(0,0,0,0.6);
-    top: 15%;
+    top: 10%;
+    left: 0;
+    padding: 20px 2%;
     width: 40%;
     color: #FFFFFF;
 }
 
+/*.overlay-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}*/
+
+/*Makes selected font bold.*/
 .font-bold {
     font-weight: bold;
 }
@@ -22,7 +30,12 @@
 
 /*Removes default carousel gradients.*/
 .carousel-control.left, .carousel-control.right {
-    background-image:none;
+    background-image: none;
+    visibility: hidden;
+}
+
+.carousel:hover .carousel-control {
+    visibility: visible;
 }
 
 /*Moves the default carousel indicator position to the right.*/
