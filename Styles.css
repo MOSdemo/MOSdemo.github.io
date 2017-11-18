@@ -7,10 +7,17 @@
     color: #FFFFFF;
 }
 
+.font-bold {
+    font-weight: bold;
+}
+
 /*Customizes the button colors.*/
 .custom-button {
     border-radius: 0px;
+    border: none;
     background: #037CFA;
+    color: white;
+    font-weight: bold;
 }
 
 /*Removes default carousel gradients.*/
