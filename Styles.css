@@ -110,6 +110,11 @@
     color: #333;
 }
 
+.thumbnail img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .thumbnail .slider {
     border: none;
     box-shadow: none;
