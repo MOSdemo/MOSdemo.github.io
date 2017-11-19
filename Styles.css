@@ -9,6 +9,16 @@
     color: #FFFFFF;
 }
 
+.womens-overlay {
+    position: absolute;
+    background: rgba(0,0,0,1);
+    top: 0;
+    right: 0;
+    padding: 2%;
+    width: 35%;
+    color: #FFFFFF;
+}
+
 /*.overlay-container {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -118,6 +128,15 @@
 }
 
 /*Creates a border line between footer columns.*/
-.separators {
-    border-right: 1px solid gray;
+.border-between > [class*='col-']:before {
+    background: #e3e3e3;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    position: absolute;
+    width: 1px;
+    top: 0;
+}
+.border-between > [class*='col-']:first-child:before {
+    display: none;
 }
