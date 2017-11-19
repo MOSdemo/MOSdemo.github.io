@@ -66,6 +66,14 @@
     border: none;
 }
 
+#red-border {
+    border: solid 1px;
+    border-color: red;
+    border-radius: 0px;
+    display: table-cell;
+    height: 320px;
+}
+
 /*Widens the padding before/after the row.*/
 .row {
     padding-top:30px;
@@ -107,4 +115,9 @@
 .slider {
     position: absolute;
     padding-top: 0%;
+}
+
+/*Creates a border line between footer columns.*/
+.separators {
+    border-right: 1px solid gray;
 }
