@@ -1,4 +1,13 @@
-﻿/*Creates the shadow-box over the carousel slides.*/
+﻿@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+body {
+    background: #F5F5F5;
+    font-family: Ubuntu, sans-serif;
+    font-weight: 700;
+}
+
+/*Creates the shadow-box over the carousel slides.*/
 .overlay {
     position: absolute;
     background: rgba(0,0,0,0.6);
@@ -11,11 +20,11 @@
 
 .womens-overlay {
     position: absolute;
-    background: rgba(0,0,0,1);
+    background: rgba(0,0,0,0.7);
     top: 0;
     right: 0;
-    padding: 2%;
-    width: 35%;
+    padding-right: 3%;
+    padding-left: 3%;
     color: #FFFFFF;
 }
 
@@ -81,16 +90,15 @@
     border-color: red;
     border-radius: 0px;
     display: table-cell;
-    height: 320px;
 }
 
-/*Widens the padding before/after the row.*/
+/*Widens the padding before/after the row.
 .row {
     padding-top:30px;
     padding-bottom:30px;
-}
+}*/
 
-/*Widens the gutters between columns.*/
+/*Widens the gutters between columns.
 .gutter-40.row {
     margin-right: -20px;
     margin-left: -20px;
@@ -98,6 +106,68 @@
 .gutter-50 > [class^="col-"], .gutter-30 > [class^="col-"] {
     padding-right: 20px;
     padding-left: 20px;
+}*/
+
+.row > div {
+    margin: 15px auto;
+}
+
+.thumb {
+    position: relative;
+    margin: 0 auto;
+    max-width: 533px;
+}
+
+.hover-opaque {
+    background: #000;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    transition: all ease .5s;
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+}
+
+.hover-opaque i {
+    position: absolute;
+    text-align: center;
+    color: red;
+    top: 50%;
+    right: 50%;
+    margin: -12px;
+    border: 1px solid green;
+}
+
+.thumb:hover .hover-opaque {
+    opacity: 0.5;
+}
+
+.thumb-caption {
+    background: #fff;
+    border-color: #E6E6E6;
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    color: #4E4E4E;
+    padding: 10px;
+}
+
+figcaption a {
+    color: #4E4E54;
+    -moz-transition: color 0.5s ease;
+    -webkit-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+    font-size: 0.9em;
+}
+
+figcaption a:hover {
+    color: #73A7F7;
+    text-decoration: none;
+}
+
+button {
+    margin: 15px;
 }
 
 /*Removes the automatic thumbnail frames.*/
