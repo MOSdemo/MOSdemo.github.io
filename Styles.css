@@ -173,6 +173,10 @@ body {
     vertical-align: middle;
 }
 
+.photo-grid .zoomed-description {
+    font-size: .7em;
+}
+
 .photo-grid li:hover figcaption p {
     -moz-transform: translateY(40px);
     -webkit-transform: translateY(40px);
