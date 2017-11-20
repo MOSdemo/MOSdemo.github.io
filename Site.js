@@ -1,15 +1,18 @@
-﻿$(document).ready(function () {
-
-    $(function () {
-        $('#test').hover(function () {
-            $('#test-text').fadeToggle("slow");
+﻿function animationHover(element, animation) {
+    element = $(element);
+    element.hover(
+        function () {
+            element.addClass('animated ' + animation);
+        },
+        function () {
+            //wait for animation to finish before removing classes
+            window.setTimeout(function () {
+                element.removeClass('animated ' + animation);
+            }, 2000);
         });
+}
 
-    });
-
-
-
-
+$(document).ready(function () {
 
 
 
@@ -25,15 +28,4 @@
     //        //Animation complete.
     // function customThemes() {
     //});
-
-    //var customTheme = {};
-    //var numThemes = 200;
-
-    //for (var i = 0; i < numThemes; i++) {
-    //    customTheme["pastel" + i] = {
-    //        background: getRandomPastel(),
-    //        foreground: "#4E4E54"
-    //    };
-    //}
-    //return customTheme;
 });
