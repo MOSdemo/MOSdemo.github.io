@@ -7,6 +7,8 @@ body {
     font-weight: 700;
 }
 
+/*----BEGIN CAROUSEL----*/
+
 /*Creates the shadow-box over the carousel slides.*/
 .overlay {
     position: absolute;
@@ -15,16 +17,6 @@ body {
     left: 0;
     padding: 20px 2%;
     width: 40%;
-    color: #FFFFFF;
-}
-
-.womens-overlay {
-    position: absolute;
-    background: rgba(0,0,0,0.7);
-    top: 0;
-    right: 0;
-    padding-right: 3%;
-    padding-left: 3%;
     color: #FFFFFF;
 }
 
@@ -85,13 +77,9 @@ body {
     border: none;
 }
 
+/*----END CAROUSEL----*/
 
-
-
-
-
-
-
+/*----BEGIN REPONSIVE GRID----*/
 
 .photo-grid {
     margin: 1em auto;
@@ -202,26 +190,23 @@ body {
     z-index: 100;
 }
 
+/*Adds "November" to top-right of Women's month div. Decided not to use.*/
+.womens-overlay {
+    position: absolute;
+    background: rgba(0,0,0,0.7);
+    top: 0;
+    right: 0;
+    padding-right: 3%;
+    padding-left: 3%;
+    color: #FFFFFF;
+}
 
+/*----END RESPONSIVE GRID----*/
 
+/*----BEGIN FOOTER----*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*Creates a border line between footer columns.*/
+/*DID AWAY WITH THIS BECAUSE IT WASN'T IDEAL:
+Creates a border line between footer columns.
 .border-between > [class*='col-']:before {
     background: #e3e3e3;
     bottom: 0;
@@ -233,15 +218,30 @@ body {
 }
 .border-between > [class*='col-']:first-child:before {
     display: none;
-}
+}*/
+
 
 
 
 .footer {
-
+    width: 100%;
+    margin: 40px auto 0 auto;
+    padding: 0 2%;
+    clear: both;
+    overflow: hidden;
 }
+
+    .footer div {
+        min-height: 430px;
+        width: 18%;
+        padding: 3%;
+        float: left;
+        border-right: 2px solid #dcdcdc;
+    }
 
 .more-links {
 
 }
+
+/*----END FOOTER----*/
 
