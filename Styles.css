@@ -4,7 +4,8 @@
 body {
     /*background: #F5F5F5;*/
     background: white;
-    font-family: Ubuntu, sans-serif;
+    /*font-family: Ubuntu, sans-serif;*/
+    font-family: Arial;
     font-weight: 700;
 }
 
@@ -163,7 +164,7 @@ body {
 }
 
 .photo-grid .zoomed-description {
-    font-size: .7em;
+    font-size: .6em;
 }
 
 .photo-grid li:hover figcaption p {
@@ -267,7 +268,7 @@ Creates a border line between footer columns.
 .more-links a {
     color: red;
     text-decoration: underline;
-    line-height: 1.5;
+    line-height: 1.75;
 }
 
 .more-links ul {
@@ -285,13 +286,18 @@ Creates a border line between footer columns.
 }
 
 .social-media li img {
-    width: 30px;
+    width: 37px;
     margin: 0 0 0 0;
     position: relative;
+    padding-right: 7px;
 }
 
 .premier-partners h2 {
     padding-bottom: 25px;
+}
+
+.premier-partners li img {
+    width: 225px;
 }
 
 .about h2 {
@@ -299,17 +305,62 @@ Creates a border line between footer columns.
 }
 
 .about p {
+    font-weight: 300;
     line-height: 1.5;
     padding-bottom: 25px;
+}
+
+.about li a {
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.about li img {
+    width: 120px;
+    margin: 0 0 0 0;
+    position: relative;
+    padding-right: 7px;
+}
+
+#mccSpace {
+    padding-top: 15%;
 }
 
 .contact h2 {
     padding-bottom: 25px;
 }
 
-.contact .contact-info {
+.contact-info {
     line-height: 1.5;
     padding-bottom: 35px;
 }
+
+.contact-info address {
+    font-style: italic;
+    font-weight: 300;
+}
+
+.miniMe {
+    font-weight: 300;
+}
+
+.contact-info a {
+    color: red;
+    text-decoration: underline;
+}
+
+.contact-info a:hover {
+    color: mediumpurple;
+}
+
+#envelopeColor {
+    color: dodgerblue;
+}
+
+#signupColor {
+    color: #545454;
+}
+
 /*----END FOOTER----*/
 
