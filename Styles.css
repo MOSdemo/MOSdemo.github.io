@@ -229,15 +229,33 @@ Creates a border line between footer columns.
     overflow: hidden;
 }
 
-.footer div {
+/*Sets the footer columns and appropriate border-right.*/
+.footer .more-links {
     min-height: 430px;
     width: 25%;
     padding: 3%;
     float: left;
     border-right: 2px solid #dcdcdc;
 }
-
+.footer .premier-partners { 
+    min-height: 430px;
+    width: 25%;
+    padding: 3%;
+    float: left;
+    border-right: 2px solid #dcdcdc;
+    }
+.footer .about {
+    min-height: 430px;
+    width: 25%;
+    padding: 3%;
+    float: left;
+    border-right: 2px solid #dcdcdc;
+}
 .footer .contact {
+    min-height: 430px;
+    width: 25%;
+    padding: 3%;
+    float: left;
     border-right: none;
 }
 
@@ -289,9 +307,9 @@ Creates a border line between footer columns.
     padding-bottom: 25px;
 }
 
-#googleMap {
+.contact .contact-info {
+    line-height: 1.5;
     padding-bottom: 35px;
 }
-
 /*----END FOOTER----*/
 
