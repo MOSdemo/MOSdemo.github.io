@@ -220,16 +220,6 @@ Creates a border line between footer columns.
     display: none;
 }*/
 
-.more-links a {
-    color: red;
-    text-decoration: underline;
-}
-
-.more-links a:hover {
-    color: mediumpurple;
-}
-
-
 .footer {
     width: 100%;
     margin: 40px auto 0 auto;
@@ -238,17 +228,40 @@ Creates a border line between footer columns.
     overflow: hidden;
 }
 
-    .footer div {
-        min-height: 430px;
-        width: 18%;
-        padding: 3%;
-        float: left;
-        border-right: 2px solid #dcdcdc;
-    }
-
-.more-links {
-
+.footer div {
+    min-height: 430px;
+    width: 18%;
+    padding: 3%;
+    float: left;
+    border-right: 2px solid #dcdcdc;
 }
+
+/*Styles links in footer.*/
+.more-links a {
+    color: red;
+    text-decoration: underline;
+}
+.more-links a:hover {
+    color: mediumpurple;
+}
+
+.social-media ul {
+    list-style-type: none;
+}
+
+.social-media li a {
+    display: inline-block;
+    float: left;
+    text-align: center;
+}
+
+.social-media li img {
+    width: 25px;
+    margin: 0 0 0 0;
+    position: relative;
+}
+
+
 
 /*----END FOOTER----*/
 
