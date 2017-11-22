@@ -220,7 +220,14 @@ Creates a border line between footer columns.
     display: none;
 }*/
 
+.more-links a {
+    color: red;
+    text-decoration: underline;
+}
 
+.more-links a:hover {
+    color: mediumpurple;
+}
 
 
 .footer {
