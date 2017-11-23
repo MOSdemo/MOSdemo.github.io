@@ -225,7 +225,7 @@ Creates a border line between footer columns.
 .footer {
     width: 100%;
     margin: 40px auto 0 auto;
-    padding: 0 2%;
+    padding: 0 2% 0 2%;
     clear: both;
     overflow: hidden;
 }
@@ -360,6 +360,25 @@ Creates a border line between footer columns.
 
 #signupColor {
     color: #545454;
+}
+
+.oneShadeOfGrey {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom:0;
+    color: black;
+    background-color: #dcdcdc;
+}
+
+.oneShadeOfGrey p {
+    padding-top: 39px;
+    padding-bottom: 39px;
+    font-weight: 300;
+}
+
+#allRights {
+    font-style: italic;
 }
 
 /*----END FOOTER----*/
