@@ -207,24 +207,9 @@ body {
 
 /*----BEGIN FOOTER----*/
 
-/*DID AWAY WITH THIS BECAUSE IT WASN'T IDEAL:
-Creates a border line between footer columns.
-.border-between > [class*='col-']:before {
-    background: #e3e3e3;
-    bottom: 0;
-    content: " ";
-    left: 0;
-    position: absolute;
-    width: 1px;
-    top: 0;
-}
-.border-between > [class*='col-']:first-child:before {
-    display: none;
-}*/
-
 .footer {
     width: 100%;
-    margin: 40px auto 0 auto;
+    margin: 80px auto 0 auto;
     padding: 0 2% 0 2%;
     clear: both;
     overflow: hidden;
@@ -280,7 +265,6 @@ Creates a border line between footer columns.
 }
 
 .social-media li a {
-    display: inline-block;
     float: left;
     text-align: center;
 }
@@ -311,7 +295,6 @@ Creates a border line between footer columns.
 }
 
 .about li a {
-    display: inline-block;
     float: left;
     text-align: center;
 }
@@ -362,6 +345,10 @@ Creates a border line between footer columns.
     color: #545454;
 }
 
+/*----END FOOTER----*/
+
+/*----BEGIN COPYRIGHT----*/
+
 .oneShadeOfGrey {
     width: 100%;
     text-align: center;
@@ -381,5 +368,5 @@ Creates a border line between footer columns.
     font-style: italic;
 }
 
-/*----END FOOTER----*/
+/*----END COPYRIGHT----*/
 
